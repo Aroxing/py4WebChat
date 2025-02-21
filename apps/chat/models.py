@@ -1,4 +1,5 @@
-from .common import db, Field, auth
+from .common import db, auth
+from pydal import Field
 import datetime
 
 # Define your database tables
